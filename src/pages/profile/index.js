@@ -1,3 +1,7 @@
 export default function Profile() {
-  return <div>Profile page</div>;
+  return (
+    <div className="input_wrap">
+      <input type="text" className=" " />
+    </div>
+  );
 }
